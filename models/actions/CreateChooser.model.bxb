@@ -1,0 +1,12 @@
+action (CreateChooser) {
+  description (Create Initial Chooser)
+  type (Commit)
+  collect {
+    input (numPlayer) {
+      type (NumPlayerConcept)
+      min (Required) max (One)
+      description (Try to create chooser)
+    }
+  }
+  output (Chooser)
+}

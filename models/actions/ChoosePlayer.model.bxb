@@ -1,0 +1,16 @@
+action (ChoosePlayer) {
+  description (Choose Player)
+  type (Search)
+  collect {
+    input (playerAction) {
+      type (PlayerAction)
+      min (Required) max (One)
+    }
+    input (chooser) {
+      type (Chooser)
+      min (Required)
+      max (One)
+    }
+  }
+  output (Chooser)
+}

@@ -1,0 +1,26 @@
+result-view {
+   match {
+     Chooser (chooser)
+   }
+
+   render {
+     layout {
+       section {
+         content {
+           single-line {
+             text {
+               style (Detail_M)
+               value ("Player: #{value(chooser.remainPlayer)}")
+             }
+           }
+           single-line {
+             text {
+               style (Detail_M)
+               value ("Selected: #{value(chooser.selected)}")
+             }
+           }
+         }
+       }
+     }
+   }
+ }

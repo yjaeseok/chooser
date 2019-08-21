@@ -1,0 +1,15 @@
+structure (Chooser) {
+  description (The result object produced by the StartChooser action.)
+  property (remainPlayer) {
+    description (The number of remain player)
+    type (NumPlayerConcept)
+    min (Required) max (One)
+    visibility (Private)
+  }
+  property (selected) {
+    description (Toggles true when the quiz is completed)
+    type (core.Boolean)
+    min (Required) max (One)
+    visibility (Private)
+  }
+}

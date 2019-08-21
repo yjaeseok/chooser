@@ -1,0 +1,26 @@
+action (StartChooser) {
+  description (Start New Choose Game)
+  type (Calculation)
+  collect {
+    input (chooser) {
+      type (Chooser)
+      min (Required) max (One)
+      default-init {
+        intent {
+          goal: CreateChooser
+        }
+      }
+      validate {
+        if (!chooser.selected) {
+          replan {
+            intent {
+              goal: ChoosePlayer
+              value { $expr(chooser) }
+            }
+          }
+        }
+      }
+    }
+  }
+  output (Chooser)
+}

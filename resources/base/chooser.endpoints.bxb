@@ -1,0 +1,16 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (StartChooser) {
+      accepted-inputs (chooser)
+      local-endpoint (StartChooser.js)
+    }
+    action-endpoint (CreateChooser) {
+      accepted-inputs (numPlayer)
+      local-endpoint (CreateChooser.js)
+    }
+    action-endpoint (ChoosePlayer) {
+      accepted-inputs (playerAction, chooser)
+      local-endpoint (ChoosePlayer.js)
+    }
+  }
+}
