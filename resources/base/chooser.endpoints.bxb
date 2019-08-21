@@ -12,5 +12,11 @@ endpoints {
       accepted-inputs (playerAction, chooser)
       local-endpoint (ChoosePlayer.js)
     }
+    action-endpoint (PlayChooserSong) {
+      local-endpoint (PlayChooserSong.js)
+    }
+    action-endpoint (BuildAudioInfo) {
+      local-endpoint (BuildAudioInfo.js)
+    }
   }
 }

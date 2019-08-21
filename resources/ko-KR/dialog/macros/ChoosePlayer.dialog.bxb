@@ -1,0 +1,12 @@
+
+template-macro-def (SAY_BIXBY) {
+  content {
+    template ("빅스비")
+  }
+}
+
+template-macro-def (PLEASE_SAY_BIXBY) {
+  content {
+    template ("빅스비 라고 외쳐주세요!!")
+  }
+}

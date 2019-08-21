@@ -1,6 +1,6 @@
 action (CreateChooser) {
+  type (Search)
   description (Create Initial Chooser)
-  type (Commit)
   collect {
     input (numPlayer) {
       type (NumPlayerConcept)

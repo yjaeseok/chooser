@@ -1,0 +1,7 @@
+hints {
+  uncategorized {
+    utterance ("Start Chooser")
+    utterance ("Start Chooser for 5 people")
+    utterance ("Let's start chooser game")
+  }
+}

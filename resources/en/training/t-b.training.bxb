@@ -1,0 +1,5 @@
+train (t-b56360r08j4zy818zqdgd7pbr) {
+  utterance ("[g:StartChooser] start chooser for (three)[v:NumPlayerConcept:3] people")
+  plan (Y2BlEMlKzE7VS87Izy9OLdJzhtAMkiiiwSWJRSUwKewapFBFi1ITS1JhcrIocn6luQE5iZWpRc75ecmpBSUMLAyMDEwMzECaAcpiBLNAgAlIA8UB)
+  last-modified (1566404121600)
+}

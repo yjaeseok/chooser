@@ -1,0 +1,7 @@
+hints {
+  uncategorized {
+    utterance ("복불복 게임 시작")
+    utterance ("5인용 복불복 게임 시작")
+    utterance ("선택 게임 시작")
+  }
+}

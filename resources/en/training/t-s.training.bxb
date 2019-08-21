@@ -1,0 +1,5 @@
+train (t-syj8phveeg4j548f0lgd0syq2) {
+  utterance ("[g:CreateChooser:prompt] (five)[v:NumPlayerConcept:5]")
+  plan (Y2BmEMlKzE7VS87Izy9OLdJzhtAMUqiiRamJJakwOVkUOb/S3ICcxMrUIuf8vOTUghIGJgZGIGYAkowMIADlAwA=)
+  last-modified (1566402902913)
+}

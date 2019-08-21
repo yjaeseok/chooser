@@ -1,0 +1,13 @@
+input-view {
+  match {
+    PlayerActionConcept(playerAction)
+  }
+  message {
+    template-macro (PLEASE_SAY_BIXBY)
+  }
+  conversation-drivers {
+    conversation-driver {
+      template-macro (SAY_BIXBY)
+    }
+  }
+}

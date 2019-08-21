@@ -1,0 +1,12 @@
+capsule-info {
+  display-name (Chooser Game)
+  dispatch-name (Chooser)
+  developer-name (Jake Yoon)
+  icon-asset (/images/bixby-logo.png)
+  description ("hit and miss game capsule")
+  website-url (https://bixbydevelopers.com)
+  search-keywords {
+    keyword (chooser game)
+    keyword (hit and miss)
+  }
+}

@@ -1,0 +1,12 @@
+
+template-macro-def (WELCOME_TO_CHOOSER) {
+  content {
+    template ("복불복 게임에 오신 것을 환영합니다.")
+  }
+}
+
+template-macro-def (HOW_MANY_PLAYER) {
+  content {
+    template ("몇분이 게임을 진행하시나요?")
+  }
+}

@@ -1,0 +1,5 @@
+train (t-aa64k7l6xn1iw04a0wcgtldtl) {
+  utterance ("[g:PlayerActionConcept:prompt] (bixby)[v:PlayerActionConcept]")
+  plan (Y2BiUMhKzE7VS87Izy9OLdILyEmsTC1yTC7JzM9zzs9LTi0oIUIFIxAyMPAAMRMQA9kA)
+  last-modified (1566403562516)
+}

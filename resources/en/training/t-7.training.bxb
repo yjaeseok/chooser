@@ -1,0 +1,5 @@
+train (t-770mos1id7h4p9xlw5eld46ns) {
+  utterance ("[g:StartChooser] start chooser game for (seven)[v:NumPlayerConcept:7]")
+  plan (Y2BlEMlKzE7VS87Izy9OLdJzhtAMkiiiwSWJRSUwKewapFBFi1ITS1JhcrIocn6luQE5iZWpRc75ecmpBSUMLAyMDEwMzECaAcpiBLNAgAlIA8UB)
+  last-modified (1566403292950)
+}

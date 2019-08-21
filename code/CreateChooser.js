@@ -1,7 +1,8 @@
 module.exports.function = function createChooser (numPlayer) {
   var chooser = {
-    selected: false,
-    remainPlayer: numPlayer
+    numPlayer: numPlayer,
+    currentPlayer: 1,
+    selected: false
   };
   return chooser;
 }

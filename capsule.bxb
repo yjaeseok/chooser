@@ -1,13 +1,25 @@
 capsule {
   id (jake.chooser)
-  version (0.1.0)
+  version (0.2.0)
   format (3)
   targets {
     target (bixby-mobile-en-US)
+    target (bixby-mobile-ko-KR)
+  }
+  runtime-flags {
+    support-halt-effect-in-computed-inputs
+    modern-prompt-rejection
+    concepts-inherit-super-type-features
+    no-filtering-with-validation
+    modern-default-view-behavior
   }
   capsule-imports {
     import (viv.core) { 
       as (core) 
+    }
+    import (bixby.audioPlayer) {
+      version (0.3.3)
+      as (audioPlayer)
     }
   } 
 }

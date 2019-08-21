@@ -1,0 +1,12 @@
+
+template-macro-def (SAY_BIXBY) {
+  content {
+    template ("Bixby")
+  }
+}
+
+template-macro-def (PLEASE_SAY_BIXBY) {
+  content {
+    template ("Please say Bixby!!")
+  }
+}

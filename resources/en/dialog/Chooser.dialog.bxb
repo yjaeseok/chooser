@@ -1,6 +1,0 @@
-dialog (Concept) {
-  match {
-    Chooser
-  }
-  template("Please tell me Jake!")
-}

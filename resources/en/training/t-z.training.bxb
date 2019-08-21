@@ -3,3 +3,8 @@ train (t-zy2xm72kzw99dpuvs141sybgn) {
   plan (Y2BmEMlKzE7VS87Izy9OLdJzhtAMUqiiRamJJakwOVkUOb/S3ICcxMrUIuf8vOTUghIGJgZGIGYAkowMIADlAwA=)
   last-modified (1566400124644)
 }
+train (t-zyvny20ytxglhjubmlpap3sil) {
+  utterance ("[g:StartChooser] start chooser (five)[v:NumPlayerConcept:5]")
+  plan (Y2BlEMlKzE7VS87Izy9OLdJzhtAMkiiiwSWJRSUwKewapFBFi1ITS1JhcrIocn6luQE5iZWpRc75ecmpBSUMLAyMDEwMzECaAcpiBLNAgAlIA8UB)
+  last-modified (1566408620453)
+}

@@ -1,0 +1,10 @@
+train (t-w6aivisk3m6x6xghzg3x8bwkr) {
+  utterance ("[g:PlayerActionConcept:prompt] (빅스비)[v:PlayerActionConcept]")
+  plan (Y2BiUMhKzE7VS87Izy9OLdILyEmsTC1yTC7JzM9zzs9LTi0oIUIFIxAyMPAAMRMQA9kA)
+  last-modified (1566409898652)
+}
+train (t-whsbh5uv9jbv6l25zlldm18h1) {
+  utterance ([g:StartChooser] 복불복 게임할래)
+  plan (Y2BmEMlKzE7VS87Izy9OLdJzhtAMkiiiwSWJRSUwKewamBgYgZgBSDIyMMBoAA==)
+  last-modified (1566409756373)
+}

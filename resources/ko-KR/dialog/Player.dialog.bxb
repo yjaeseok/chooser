@@ -1,0 +1,6 @@
+dialog (Concept) {
+  match {
+    NumPlayerConcept
+  }
+  template("몇분이 게임을 진행하시나요?")
+}

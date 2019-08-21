@@ -1,7 +1,13 @@
 structure (Chooser) {
   description (The result object produced by the StartChooser action.)
-  property (remainPlayer) {
-    description (The number of remain player)
+  property (numPlayer) {
+    description (The number of total player)
+    type (NumPlayerConcept)
+    min (Required) max (One)
+    visibility (Private)
+  }
+  property (currentPlayer) {
+    description (current player)
     type (NumPlayerConcept)
     min (Required) max (One)
     visibility (Private)

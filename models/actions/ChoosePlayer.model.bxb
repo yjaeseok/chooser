@@ -1,9 +1,9 @@
 action (ChoosePlayer) {
-  description (Choose Player)
   type (Search)
+  description (Choose Player)
   collect {
     input (playerAction) {
-      type (PlayerAction)
+      type (PlayerActionConcept)
       min (Required) max (One)
     }
     input (chooser) {

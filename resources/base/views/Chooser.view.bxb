@@ -2,21 +2,20 @@ result-view {
    match {
      Chooser (chooser)
    }
-
    render {
      layout {
        section {
          content {
            single-line {
              text {
-               style (Detail_M)
-               value ("Player: #{value(chooser.remainPlayer)}")
+               style (Title_M)
+               value ("Total Player : #{value(chooser.numPlayer)}")
              }
            }
            single-line {
              text {
-               style (Detail_M)
-               value ("Selected: #{value(chooser.selected)}")
+               style (Title_S)
+               value ("Selected Player: #{value(chooser.currentPlayer)}")
              }
            }
          }

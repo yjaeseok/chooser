@@ -11,7 +11,14 @@ action (StartChooser) {
         }
       }
       validate {
-        if (!chooser.selected) {
+        if (chooser.selected) {
+          replan {
+            intent {
+              goal: PlayChooserSong
+              value { $expr(chooser) }
+            }
+          }
+        } else {
           replan {
             intent {
               goal: ChoosePlayer

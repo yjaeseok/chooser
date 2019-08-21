@@ -1,0 +1,5 @@
+train (t-pgjqvihzwv9jb4xif052ib2jx) {
+  utterance ("[g:StartChooser] (5)[v:NumPlayerConcept]명 복불복 게임 시작")
+  plan (Y2BlEMlKzE7VS87Izy9OLdJzhtAMkiiiwSWJRSUwKewapFBFi1ITS1JhcrIocn6luQE5iZWpRc75ecmpBSUMLAyMDEwMzECaAcpiBLNAgAlIA8UB)
+  last-modified (1566409725460)
+}

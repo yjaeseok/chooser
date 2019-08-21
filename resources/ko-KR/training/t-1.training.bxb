@@ -1,0 +1,5 @@
+train (t-12k00ukq9t015wnjuub31bv0c) {
+  utterance ([g:StartChooser] 선택 게임 시작해줘)
+  plan (Y2BmEMlKzE7VS87Izy9OLdJzhtAMkiiiwSWJRSUwKewamBgYgZgBSDIyMMBoAA==)
+  last-modified (1566409770357)
+}
