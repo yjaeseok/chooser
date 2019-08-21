@@ -1,0 +1,6 @@
+
+template-macro-def (CHOOSE_MESSAGE) {
+  content {
+    template ("결국 너야~ 내 심장이 기억하는 사람!")
+  }
+}

@@ -8,14 +8,15 @@ result-view {
          content {
            single-line {
              text {
-               style (Title_M)
-               value ("Total Player : #{value(chooser.numPlayer)}")
+               style (Title_S)
+               value {
+                 template-macro (CHOOSE_MESSAGE)
+               }
              }
            }
-           single-line {
-             text {
-               style (Title_S)
-               value ("Selected Player: #{value(chooser.currentPlayer)}")
+           image {
+             url {
+               template ("images/chooser.png")
              }
            }
          }

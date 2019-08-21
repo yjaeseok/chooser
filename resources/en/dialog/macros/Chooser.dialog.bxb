@@ -1,0 +1,6 @@
+
+template-macro-def (CHOOSE_MESSAGE) {
+  content {
+    template ("You are selected by chooser")
+  }
+}
