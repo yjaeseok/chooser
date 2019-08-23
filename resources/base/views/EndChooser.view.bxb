@@ -1,0 +1,21 @@
+result-view{
+  match: Chooser(chooser)
+  
+  message {
+    template-macro(CHOOSE_MESSAGE)
+  }
+
+  render {
+    layout {
+      section {
+        content {
+          image {
+            url {
+              template ("images/chooser.png")
+            }
+          }
+        }
+      }
+    }
+  }
+}

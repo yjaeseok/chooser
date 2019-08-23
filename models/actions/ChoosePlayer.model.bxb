@@ -2,15 +2,35 @@ action (ChoosePlayer) {
   type (Search)
   description (Choose Player)
   collect {
-    input (playerAction) {
-      type (PlayerActionConcept)
-      min (Required) max (One)
-    }
     input (chooser) {
       type (Chooser)
       min (Required)
       max (One)
     }
+    input (playerAction) {
+      type (PlayerActionConcept)
+      min (Required)
+      max (One)
+    }
+    
   }
   output (Chooser)
 }
+
+// validate {
+//         if (chooser.selected) {
+//           replan {
+//             intent {
+//               goal: PlayChooserSong
+//               value { $expr(chooser) }
+//             }
+//           }
+//         } else {
+//           replan {
+//             intent {
+//               goal: ChoosePlayer
+//               value { $expr(chooser) }
+//             }
+//           }
+//         }
+//       }

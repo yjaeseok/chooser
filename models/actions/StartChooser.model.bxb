@@ -10,6 +10,7 @@ action (StartChooser) {
           goal: CreateChooser
         }
       }
+
       validate {
         if (chooser.selected) {
           replan {

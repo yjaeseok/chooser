@@ -1,6 +1,10 @@
 
 template-macro-def (CHOOSE_MESSAGE) {
   content {
-    template ("결국 너야~ 내 심장이 기억하는 사람!")
+    choose (Random) {
+     template ("결국 너야~ 당첨을 축하드립니다.")
+     template ("한결같은 당신이 있어 우리가 행복합니다.")
+     template ("오늘도 ...?!")
+    }
   }
 }

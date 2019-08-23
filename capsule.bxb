@@ -1,9 +1,8 @@
 capsule {
   id (jake.chooser)
-  version (0.2.2)
+  version (0.2.3)
   format (3)
   targets {
-    target (bixby-mobile-en-US)
     target (bixby-mobile-ko-KR)
   }
   runtime-flags {

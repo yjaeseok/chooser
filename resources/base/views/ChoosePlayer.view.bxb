@@ -1,9 +1,13 @@
 input-view {
-  match {
-    PlayerActionConcept(playerAction)
+  match: PlayerActionConcept(this) {
+    to-input: ChoosePlayer(action)
   }
   message {
-    template-macro (PLEASE_SAY_BIXBY)
+    if (action.chooser.currentPlayer == 1) {  // if not on first question
+      template-macro(PLEASE_SAY_BIXBY)
+    } else {
+      template("#{macro('PLEASE_SAY_BIXBY_PARAMS', action.chooser)}")
+    }
   }
   conversation-drivers {
     conversation-driver {

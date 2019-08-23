@@ -7,6 +7,24 @@ template-macro-def (SAY_BIXBY) {
 
 template-macro-def (PLEASE_SAY_BIXBY) {
   content {
-    template ("빅스비 라고 외쳐주세요!!")
+    template ("자 이제 시작합니다. 빅스비 라고 외쳐주세요!!")
+  }
+}
+
+template-macro-def (PLEASE_SAY_BIXBY_PARAMS) {
+  params {
+    param (chooser) {
+      type (Chooser)
+      min (Required)
+      max (One)
+    }
+  }
+  content {
+    choose (Random) {
+      template ("#{value(chooser.currentPlayer)}번째 도전자입니다. 빅스비!!")
+      template ("과연?! 빅스비 라고 외쳐주세요!")
+      template ("#{value(chooser.chooseRatio)}% 확률에 도전합니다. 빅스비 라고 외쳐주세요!")
+      template ("총 #{value(chooser.numPlayer)}분이 복불복에 참여중 입니다. 빅스비 라고 외쳐주세요!")
+    }
   }
 }
