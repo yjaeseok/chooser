@@ -1,0 +1,13 @@
+data:
+  deviceIsInHandsFreeMode: false
+  geo:
+    latitude: 37.264763
+    longitude: 126.999932
+  time: '2019-08-23T09:19:58.562Z'
+  tz: America/Los_Angeles
+steps:
+  step-LQK:
+    step-GJS:
+      step-2HL:
+        step-L6J:
+          step-KVL: ~
