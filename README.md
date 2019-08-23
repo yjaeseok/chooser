@@ -1,5 +1,4 @@
-# 누가쏴 <img width="100px" src="./assets/images/icon.png"/>
-  
+# <img width="30px" src="./assets/images/icon.png"/> 누가쏴
 <p align="center">
   <img src="http://img.shields.io/:license-mit-green.svg"/>
   <img src="https://img.shields.io/badge/platform-bixby-blue.svg"/>
