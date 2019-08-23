@@ -1,12 +1,13 @@
 capsule-info {
-  display-name (복불복 게임)
-  dispatch-name (복불복)
+  display-name (누가쏴)
+  dispatch-name (누가쏴)
   developer-name (Jake Yoon)
-  icon-asset (/images/bixby-logo.png)
-  description ("hit and miss game capsule")
-  website-url (https://bixbydevelopers.com)
+  icon-asset (/images/icon.png)
+  description ("언제 어디서 누구나 간편하게 즐길 수 있는 복불복 게임입니다.")
   search-keywords {
-    keyword (복불복 게임)
+    keyword (게임)
     keyword (복불복)
+    keyword (사다리타기)
+    keyword (누가쏴)
   }
 }

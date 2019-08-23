@@ -1,6 +1,6 @@
 capsule {
   id (jake.chooser)
-  version (0.2.6)
+  version (0.2.7)
   format (3)
   targets {
     target (bixby-mobile-ko-KR)
@@ -21,5 +21,8 @@ capsule {
       version (0.3.3)
       as (audioPlayer)
     }
-  } 
+  }
+  store-sections {
+    section (GamesAndFun)
+  }
 }

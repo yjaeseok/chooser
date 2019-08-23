@@ -1,0 +1,5 @@
+train (t-nb96lt4zlh81fd0khmzzugym6) {
+  utterance ([g:StartChooser] 누가쏴에서 선택 게임 시작)
+  plan (Y2BmEMlKzE7VS87Izy9OLdJzhtAMkiiiwSWJRSUwKewamBgYgZgBSDIyMMBoAA==)
+  last-modified (1566539786837)
+}

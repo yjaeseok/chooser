@@ -1,0 +1,5 @@
+train (t-md97ibdpwzgk8qb1qeziea0dz) {
+  utterance ("[g:PlayerActionConcept:prompt] (누가쏴)[v:PlayerActionConcept]")
+  plan (Y2BiUMhKzE7VS87Izy9OLdILyEmsTC1yTC7JzM9zzs9LTi0oIUIFIxAyMPAAMRMQA9kA)
+  last-modified (1566540171424)
+}
