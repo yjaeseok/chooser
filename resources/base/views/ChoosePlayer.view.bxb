@@ -3,10 +3,14 @@ input-view {
     to-input: ChoosePlayer(action)
   }
   message {
-    if (action.chooser.currentPlayer == 1) {  // if not on first question
-      template-macro(PLEASE_SAY_BIXBY)
+    if (action.chooser.isBixby) {
+      if (action.chooser.currentPlayer == 1) {  // if not on first question
+        template-macro(PLEASE_SAY_BIXBY)
+      } else {
+        template("#{macro('PLEASE_SAY_BIXBY_PARAMS', action.chooser)}")
+      }
     } else {
-      template("#{macro('PLEASE_SAY_BIXBY_PARAMS', action.chooser)}")
+      template-macro(RETRY_PLEASE_SAY_BIXBY)
     }
   }
   conversation-drivers {

@@ -24,4 +24,10 @@ structure (Chooser) {
     min (Required) max (One)
     visibility (Private)
   }
+  property (isBixby) {
+    description (Toggles true when the quiz is completed)
+    type (core.Boolean)
+    min (Required) max (One)
+    visibility (Private)
+  }
 }

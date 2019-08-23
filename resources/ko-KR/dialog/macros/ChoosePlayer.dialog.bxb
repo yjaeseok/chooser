@@ -11,6 +11,16 @@ template-macro-def (PLEASE_SAY_BIXBY) {
   }
 }
 
+template-macro-def (RETRY_PLEASE_SAY_BIXBY) {
+  content {
+    choose (Random) {
+      template ("빅스비라고 외치지 않았습니다. 다시 빅스비 라고 외쳐주세요!!")
+      template ("빅스비라고 외치지 않았습니다. 빅! 스! 비! 라고 외쳐주세요!!")
+      template ("제발 빅스비! 라고 외쳐주세요!!")
+    }
+  }
+}
+
 template-macro-def (PLEASE_SAY_BIXBY_PARAMS) {
   params {
     param (chooser) {
@@ -21,10 +31,10 @@ template-macro-def (PLEASE_SAY_BIXBY_PARAMS) {
   }
   content {
     choose (Random) {
-      template ("#{value(chooser.currentPlayer)}번째 도전자입니다. 빅스비!!")
-      template ("과연?! 빅스비 라고 외쳐주세요!")
-      template ("#{value(chooser.chooseRatio)}% 확률에 도전합니다. 빅스비 라고 외쳐주세요!")
-      template ("총 #{value(chooser.numPlayer)}분이 복불복에 참여중 입니다. 빅스비 라고 외쳐주세요!")
+      template ("성공! #{value(chooser.currentPlayer)}번째 도전자입니다. 빅스비!!")
+      template ("성공! 다음 타자 빅스비 라고 외쳐주세요!")
+      template ("성공! #{value(chooser.chooseRatio)}% 확률에 도전합니다. 빅스비 라고 외쳐주세요!")
+      template ("성공! 총 #{value(chooser.numPlayer)}분이 복불복에 참여중 입니다. 빅스비 라고 외쳐주세요!")
     }
   }
 }

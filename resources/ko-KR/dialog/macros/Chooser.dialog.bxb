@@ -3,8 +3,8 @@ template-macro-def (CHOOSE_MESSAGE) {
   content {
     choose (Random) {
      template ("결국 너야~ 당첨을 축하드립니다.")
-     template ("한결같은 당신이 있어 우리가 행복합니다.")
-     template ("오늘도 ...?!")
+     template ("당첨되었습니다. 한결같은 당신이 있어 우리가 행복합니다.")
+     template ("오늘도 ...?! 역시나 당첨되었습니다.")
     }
   }
 }
