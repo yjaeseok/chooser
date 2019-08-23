@@ -1,11 +1,12 @@
 capsule {
   id (jake.chooser)
-  version (0.2.5)
+  version (0.2.6)
   format (3)
   targets {
     target (bixby-mobile-ko-KR)
   }
   runtime-flags {
+    use-input-views-for-selection-list-detail
     support-halt-effect-in-computed-inputs
     modern-prompt-rejection
     concepts-inherit-super-type-features

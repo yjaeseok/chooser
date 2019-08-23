@@ -5,4 +5,13 @@ input-view {
   message {
     template-macro (HOW_MANY_PLAYER)
   }
+
+  conversation-drivers {
+    conversation-driver {
+      template-macro (THREE_PEOPLE)
+    }
+    conversation-driver {
+      template-macro (FIVE_PEOPLE)
+    }
+  }
 }

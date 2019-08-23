@@ -10,3 +10,15 @@ template-macro-def (HOW_MANY_PLAYER) {
     template ("몇분이 게임을 진행하시나요?")
   }
 }
+
+template-macro-def (THREE_PEOPLE) {
+  content {
+    template ("3명")
+  }
+}
+
+template-macro-def (FIVE_PEOPLE) {
+  content {
+    template ("5명")
+  }
+}
