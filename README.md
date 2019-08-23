@@ -1,7 +1,7 @@
 # 누가쏴
 
 <p align="center">
-  <img src="./assets/images/logo.png"/>
+  <img width="100px" src="./assets/images/icon.png"/>
   <img width="200px" src="https://avatars2.githubusercontent.com/u/4569945?s=460&v=4"/>
 </p>
 
