@@ -4,7 +4,7 @@ module.exports.function = function choosePlayer (playerAction, chooser) {
   if (playerAction == "빅스비" || playerAction.toUpperCase() == "BIXBY") {
     chooser.isBixby = true;
     if (chooser.currentPlayer < chooser.numPlayer) {
-      const remainPlayer = chooser.numPlayer - chooser.currentPlayer - 1;
+      const remainPlayer = chooser.numPlayer - chooser.currentPlayer + 1;
       const selectedRate = 1 / parseFloat(remainPlayer);
       const random = Math.random();
       chooser.selected =  random <= selectedRate;
