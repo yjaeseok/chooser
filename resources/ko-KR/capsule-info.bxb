@@ -3,6 +3,7 @@ capsule-info {
   dispatch-name (누가쏴)
   developer-name (Jake Yoon)
   icon-asset (/images/icon.png)
+  website-url (https://github.com/yjaeseok/chooser)
   description ("언제 어디서 누구나 간편하게 즐길 수 있는 복불복 게임입니다.")
   search-keywords {
     keyword (게임)
