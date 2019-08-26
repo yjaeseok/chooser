@@ -49,7 +49,7 @@
 > 따라서 PlayerAction을 추가하기 위해 [ChoosePlayer.view.bxb](./resources/base/views/ChoosePlayer.view.bxb)를 활용해 질문을 하게 됩니다.<br>
 
 ###### 그림으로 STEP 2.의 동작 Flow를 보면 아래와 같습니다.
-<p align="center"><img src="./assets/flow/step2.png" alt="drawing" width="30%"/></p>
+<p align="center"><img src="./assets/flow/step2.png" alt="drawing" width="50%"/></p>
 
 
 #### STEP 3. 사용자 '빅스비' 발화 후 패스 (당첨되지 않음)
@@ -60,7 +60,7 @@
 > STEP 2 처럼 PlayerAction을 추가하기 위해 "빅스비 라고 외쳐주세요" 라고 요청 받게됩니다.<br>
 
 ###### 그림으로 STEP 3.의 동작 Flow를 보면 아래와 같습니다.
-<p align="center"><img src="./assets/flow/step3.png" alt="drawing" width="30%"/></p>
+<p align="center"><img src="./assets/flow/step3.png" alt="drawing" width="40%"/></p>
 
 
 #### STEP 4. 사용자 '빅스비' 발화 후 벌칙 당첨 (당첨됨)
@@ -69,7 +69,7 @@
 > PlayChooserSong은 audio 라이브러리를 활용해 노래를 재생하고 [EndChooser.view.bxb](./resources/base/views/EndChooser.view.bxb) 형태로 그림을 그립니다.<br>
 
 ###### 그림으로 STEP 4.의 동작 Flow를 보면 아래와 같습니다.
-<p align="center"><img src="./assets/flow/step2.png" alt="drawing" width="30%"/></p>
+<p align="center"><img src="./assets/flow/step2.png" alt="drawing" width="50%"/></p>
 
 ###### 그림으로 STEP 1 ~ STEP 4의 진행을 확인해보면 아래와 같습니다.
 <p align="center"><img src="./assets/flow/result-views.png" alt="drawing" width="100%"/></p>
