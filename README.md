@@ -55,4 +55,4 @@
 <p align="center"><img src="./assets/flow/step2.png" alt="drawing" width="30%"/></p>
 
 ###### 그림으로 STEP 1 ~ STEP 4의 진행을 확인해보면 아래와 같습니다.
-<p align="center"><img src="./assets/flow/views.png" alt="drawing" width="100%"/></p>
+<p align="center"><img src="./assets/flow/result-views.png" alt="drawing" width="100%"/></p>
