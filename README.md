@@ -1,7 +1,9 @@
 # <img width="36px" src="./assets/images/icon.png"/> 누가쏴
+<center>
 ![](http://img.shields.io/:license-mit-green.svg)
 ![](https://img.shields.io/badge/platform-bixby-blue.svg)
 ![](https://img.shields.io/badge/language-javascript-brightgreen.svg)
+</center>
 
 "누가쏴는 언제 어디서 누구나 간편하게 즐길 수 있는 복불복 게임 캡슐입니다."
 
@@ -20,5 +22,5 @@
 > 단, "누가쏴에서 5인용 복불복 게임 시작" 처럼 외치면 5명이 NumPlayer에 적용되어 바로 게임이 시작됩니다.
 
 ###### 그림으로 STEP 1.의 동작과 결과를 보면 아래와 같습니다.
-<img src="./assets/flow/step1.png" alt="drawing" width="200"/>
-<img src="./assets/flow/step1-view.png" alt="drawing" width="200"/>
+![](./assets/flow/step1.png){: width="250"}
+![](./assets/flow/step1-view.png){: width="250"}
