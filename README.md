@@ -18,11 +18,9 @@
 ### STEP 1. 실행
 > 대표발화 "누가쏴에서 복불복 게임 시작" 을 외치면 빅스비가 "몇분이 게임을 진행하시나요?" 라고 묻게됩니다.
 > 그 이유는 StartChooser가 CreateChooser를 통해 Chooser를 생성하는데, Chooser의 NumPlayer가 없기 때문입니다.
-> 따라서 NumPlayer를 추가하기 위해 <a href="./resources/base/views/CreateChooser.view.bxb>/resources/base/views/CreateChooser.view.bxb</a>를 활용해 질문을 하게 됩니다.
+> 따라서 NumPlayer를 추가하기 위해 [resources/base/views/CreateChooser.view.bxb](./resources/base/views/CreateChooser.view.bxb)를 활용해 질문을 하게 됩니다.
 > 단, "누가쏴에서 5인용 복불복 게임 시작" 처럼 외치면 5명이 NumPlayer에 적용되어 바로 게임이 시작됩니다.
 
 # 그림으로 STEP 1.의 동작과 결과를 보면 아래와 같습니다.
-<p align="center">
-  <img width="400px" src="./assets/flow/step1.png"/></br></br>
-  <img width="400px" src="./assets/flow/step1-view.png"/>
-</p>
+![]./assets/flow/step1.png"/>![]
+![]./assets/flow/step1-view.png"/>![]
