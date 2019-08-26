@@ -43,7 +43,7 @@
 
 #### STEP 2. 최초 사용자 선택 진행
 > STEP 1에서 n명 이라고 발화를 하거나, "누가쏴에서 n인용 복불복 게임 시작" 을 발화하면, STEP 2로 진입합니다.<br>
-> STEP 2는 최초로 사용자를 선택하는 것으로, 빅스비가 "자 이제 시작합니다. 빅스비 라고 외쳐주세요." 라고 이야기합니다.<br>
+> STEP 2에서는 빅스비가 "자 이제 시작합니다. 빅스비 라고 외쳐주세요." 라고 이야기합니다.<br>
 > 그 이유는 [StartChooser](./models/actions/StartChooser.model.bxb)가 선택된 사용자가 없을 때 [ChoosePlayer](./models/actions/ChoosePlayer.model.bxb)로 이동되며<br>
 > ChoosePlayer는 PlayerAction을 필요로 하기 때문입니다.<br>
 > 따라서 PlayerAction을 추가하기 위해 [ChoosePlayer.view.bxb](./resources/base/views/ChoosePlayer.view.bxb)를 활용해 질문을 하게 됩니다.<br>
@@ -54,7 +54,8 @@
 
 #### STEP 3. 사용자 '빅스비' 발화 후 패스 (당첨되지 않음)
 > STEP 2에서 사용자가 '빅스비' 라고 외쳤을 때 [ChoosePlayer.js](./code/ChoosePlayer.js)의 알고리즘을 기반으로 패스 여부를 결정합니다.<br>
-> STEP 3은 알고리즘 결과 패스한 경우 입니다. 패스 했을 경우 ChoosePlayer 함수는 currentPlayer를 1 증가시키고 Chooser를 리턴합니다.<br>
+> STEP 3은 알고리즘 결과 패스한 경우 입니다. <br>
+> 패스 했을 경우 ChoosePlayer 함수는 currentPlayer를 1 증가시키고 Chooser를 리턴합니다.<br>
 > 리턴된 Chooser는 다시 StartChooser의 입력이 되고, ChoosePlayer가 다시 시작되어,<br>
 > STEP 2 처럼 PlayerAction을 추가하기 위해 "빅스비 라고 외쳐주세요" 라고 요청 받게됩니다.<br>
 
