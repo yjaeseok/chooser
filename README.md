@@ -69,7 +69,7 @@
 > PlayChooserSong은 audio 라이브러리를 활용해 노래를 재생하고 [EndChooser.view.bxb](./resources/base/views/EndChooser.view.bxb) 형태로 그림을 그립니다.<br>
 
 ###### 그림으로 STEP 4.의 동작 Flow를 보면 아래와 같습니다.
-<p align="center"><img src="./assets/flow/step2.png" alt="drawing" width="50%"/></p>
+<p align="center"><img src="./assets/flow/step4.png" alt="drawing" width="50%"/></p>
 
 ###### 그림으로 STEP 1 ~ STEP 4의 진행을 확인해보면 아래와 같습니다.
 <p align="center"><img src="./assets/flow/result-views.png" alt="drawing" width="100%"/></p>
