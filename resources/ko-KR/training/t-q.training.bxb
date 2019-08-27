@@ -1,3 +1,8 @@
+train (t-qmyn5nkcsumollv7n106jj4y2) {
+  utterance ([g:StartChooser] Jake 복불복에서 복불복 게임하자)
+  plan (Y2BmEMlKzE7VS87Izy9OLdJzhtAMkiiiwSWJRSUwKewamBgYgZgBSDIyMMBoAA==)
+  last-modified (1566890463249)
+}
 train (t-qq9cdalykcyli0dh48kqqsthv) {
   utterance ("[g:NumPlayerConcept:prompt] (7)[v:NumPlayerConcept:7]분")
   plan (Y2BikM1KzE7VS87Izy9OLdLzK80NyEmsTC1yzs9LTi0oISTNCIQMDDxAzATEQDYA)

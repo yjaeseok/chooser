@@ -1,0 +1,5 @@
+train (t-smg8ioab1plnviiinop3sto99) {
+  utterance ("[g:StartChooser] Jake 복불복에서 (4)[v:NumPlayerConcept:4]인용 게임 시작")
+  plan (Y2BlEMlKzE7VS87Izy9OLdJzhtAMkiiiwSWJRSUwKewapFBFi1ITS1JhcrIocn6luQE5iZWpRc75ecmpBSUMLAyMDEwMzECaAcpiBLNAgAlIA8UB)
+  last-modified (1566890591820)
+}

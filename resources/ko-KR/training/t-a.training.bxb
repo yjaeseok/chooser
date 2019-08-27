@@ -1,0 +1,5 @@
+train (t-a4evpw92yk9od8c5tk5p6f3i6) {
+  utterance ([g:StartChooser] Jake 복불복에서 선택게임 시작)
+  plan (Y2BmEMlKzE7VS87Izy9OLdJzhtAMkiiiwSWJRSUwKewamBgYgZgBSDIyMMBoAA==)
+  last-modified (1566890497409)
+}

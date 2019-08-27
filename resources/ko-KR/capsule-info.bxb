@@ -1,6 +1,6 @@
 capsule-info {
-  display-name (복불복)
-  dispatch-name (복불복)
+  display-name (Jake 복불복)
+  dispatch-name (Jake 복불복)
   developer-name (Jake Yoon)
   icon-asset (/images/icon.png)
   website-url (https://github.com/yjaeseok/chooser)
@@ -9,5 +9,6 @@ capsule-info {
     keyword (게임)
     keyword (복불복)
     keyword (사다리타기)
+    keyword (Jake)
   }
 }
