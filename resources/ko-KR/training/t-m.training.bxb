@@ -1,5 +1,5 @@
-train (t-md97ibdpwzgk8qb1qeziea0dz) {
-  utterance ("[g:PlayerActionConcept:prompt] (누가쏴)[v:PlayerActionConcept]")
-  plan (Y2BiUMhKzE7VS87Izy9OLdILyEmsTC1yTC7JzM9zzs9LTi0oIUIFIxAyMPAAMRMQA9kA)
-  last-modified (1566540171424)
+train (t-mvcnk3ws63chf74bbjd581lwe) {
+  utterance ([g:StartChooser] 복불복에서 게임 시작)
+  plan (Y2BmEMlKzE7VS87Izy9OLdJzhtAMkiiiwSWJRSUwKewamBgYgZgBSDIyMMBoAA==)
+  last-modified (1566867816835)
 }

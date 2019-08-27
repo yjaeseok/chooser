@@ -3,3 +3,8 @@ train (t-ra0jr85z9l2eqqynd034owbn5) {
   plan (Y2BmEMlKzE7VS87Izy9OLdJzhtAMkiiiwSWJRSUwKewamBgYgZgBSDIyMMBoAA==)
   last-modified (1566409706460)
 }
+train (t-rzfsj91xtf88j5owp1go8qqit) {
+  utterance ([g:StartChooser] 복불복에서 복불복 게임 시작)
+  plan (Y2BmEMlKzE7VS87Izy9OLdJzhtAMkiiiwSWJRSUwKewamBgYgZgBSDIyMMBoAA==)
+  last-modified (1566867720318)
+}

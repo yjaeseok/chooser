@@ -1,5 +1,0 @@
-train (t-add8g841ytcq1697k3blf2l0u) {
-  utterance ("[g:StartChooser] 누가쏴에서 (5)[v:NumPlayerConcept:5]인용 복불복 게임 시작")
-  plan (Y2BlEMlKzE7VS87Izy9OLdJzhtAMkiiiwSWJRSUwKewapFBFi1ITS1JhcrIocn6luQE5iZWpRc75ecmpBSUMLAyMDEwMzECaAcpiBLNAgAlIA8UB)
-  last-modified (1566539768141)
-}

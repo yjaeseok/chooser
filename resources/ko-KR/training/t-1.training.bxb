@@ -3,8 +3,3 @@ train (t-12k00ukq9t015wnjuub31bv0c) {
   plan (Y2BmEMlKzE7VS87Izy9OLdJzhtAMkiiiwSWJRSUwKewamBgYgZgBSDIyMMBoAA==)
   last-modified (1566409770357)
 }
-train (t-1s162kqc0t3oqw1dgdyhtoswk) {
-  utterance ([g:StartChooser] 누가쏴에서 복불복 게임 시작)
-  plan (Y2BmEMlKzE7VS87Izy9OLdJzhtAMkiiiwSWJRSUwKewamBgYgZgBSDIyMMBoAA==)
-  last-modified (1566539727944)
-}

@@ -1,5 +1,5 @@
-train (t-nb96lt4zlh81fd0khmzzugym6) {
-  utterance ([g:StartChooser] 누가쏴에서 선택 게임 시작)
+train (t-nuf19eog5i36i54dywfgkhy2e) {
+  utterance ([g:StartChooser] 복불복에서 선택 게임 시작)
   plan (Y2BmEMlKzE7VS87Izy9OLdJzhtAMkiiiwSWJRSUwKewamBgYgZgBSDIyMMBoAA==)
-  last-modified (1566539786837)
+  last-modified (1566867799432)
 }
