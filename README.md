@@ -1,11 +1,11 @@
-# <img width="36px" src="./assets/images/icon.png"/> 복불복 캡슐
+# <img width="36px" src="./assets/images/icon.png"/> 복불복
 <p align="center">
   <img src="http://img.shields.io/:license-mit-green.svg"/>
   <img src="https://img.shields.io/badge/platform-bixby-blue.svg"/>
   <img src="https://img.shields.io/badge/language-javascript-brightgreen.svg"/>
 </p>
 
-"복불복은 언제 어디서 누구나 간편하게 즐길 수 있는 복불복 게임 캡슐입니다."
+"복불복 캡슐은 언제 어디서 누구나 간편하게 즐길 수 있는 복불복 게임 캡슐입니다."
 
 ### 대표발화
 
