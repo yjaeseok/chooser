@@ -1,0 +1,5 @@
+train (t-fybt2q2s60hwzhwd6yj95zczr) {
+  utterance ("[g:NumPlayerConcept:prompt] (다섯)[v:NumPlayerConcept:5] 명")
+  plan (Y2BikM1KzE7VS87Izy9OLdLzK80NyEmsTC1yzs9LTi0oISTNCIQMDDxAzATEQDYA)
+  last-modified (1567112923364)
+}

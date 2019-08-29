@@ -1,3 +1,8 @@
+train (t-qav0hhatwvo4vwcdh6wlbzfyd) {
+  utterance ("[g:StartChooser] 제이크 복불복에서 (육)[v:NumPlayerConcept:6] 인용 할래")
+  plan (Y2BlEMlKzE7VS87Izy9OLdJzhtAMkiiiwSWJRSUwKewapFBFi1ITS1JhcrIocn6luQE5iZWpRc75ecmpBSUMLAyMDEwMzECaAcpiBLNAgAlIA8UB)
+  last-modified (1567112966203)
+}
 train (t-qmyn5nkcsumollv7n106jj4y2) {
   utterance ([g:StartChooser] Jake 복불복에서 복불복 게임하자)
   plan (Y2BmEMlKzE7VS87Izy9OLdJzhtAMkiiiwSWJRSUwKewamBgYgZgBSDIyMMBoAA==)

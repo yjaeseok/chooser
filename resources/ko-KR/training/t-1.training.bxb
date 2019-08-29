@@ -8,3 +8,8 @@ train (t-12k00ukq9t015wnjuub31bv0c) {
   plan (Y2BmEMlKzE7VS87Izy9OLdJzhtAMkiiiwSWJRSUwKewamBgYgZgBSDIyMMBoAA==)
   last-modified (1566409770357)
 }
+train (t-1m60gylcy8j8y6og35z7k98d4) {
+  utterance ("[g:StartChooser] 제이크 복불복에서 (십)[v:NumPlayerConcept:10] 인용 게임할래")
+  plan (Y2BlEMlKzE7VS87Izy9OLdJzhtAMkiiiwSWJRSUwKewapFBFi1ITS1JhcrIocn6luQE5iZWpRc75ecmpBSUMLAyMDEwMzECaAcpiBLNAgAlIA8UB)
+  last-modified (1567112868296)
+}

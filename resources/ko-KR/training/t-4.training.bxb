@@ -3,3 +3,8 @@ train (t-403dg2efjuxdxbquy8r9a74sn) {
   plan (Y2BlEMlKzE7VS87Izy9OLdJzhtAMkiiiwSWJRSUwKewapFBFi1ITS1JhcrIocn6luQE5iZWpRc75ecmpBSUMLAyMDEwMzECaAcpiBLNAgAlIA8UB)
   last-modified (1566890629164)
 }
+train (t-4tlkhk3u0rktkezyae80dgq14) {
+  utterance ("[g:NumPlayerConcept:prompt] (구)[v:NumPlayerConcept:9] 인용")
+  plan (Y2BikM1KzE7VS87Izy9OLdLzK80NyEmsTC1yzs9LTi0oISTNCIQMDDxAzATEQDYA)
+  last-modified (1567112838732)
+}

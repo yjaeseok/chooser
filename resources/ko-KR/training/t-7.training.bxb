@@ -1,0 +1,5 @@
+train (t-7oaa82eovevvbxnifz3gk89ry) {
+  utterance ([g:StartChooser] 복불복 게임 시작)
+  plan (Y2BmEMlKzE7VS87Izy9OLdJzhtAMkiiiwSWJRSUwKewamBgYgZgBSDIyMMBoAA==)
+  last-modified (1567112883194)
+}

@@ -6,5 +6,5 @@ train (t-i90hvsr7qmmwdqifm0cg0sinl) {
 train (t-icz2c16ojuoy2pxlj5u3ign1n) {
   utterance ("[g:StartChooser] 제이크 복불복에서 (오)[v:NumPlayerConcept:5] 인용 복불복 게임 스타트")
   plan (Y2BlEMlKzE7VS87Izy9OLdJzhtAMkiiiwSWJRSUwKewapFBFi1ITS1JhcrIocn6luQE5iZWpRc75ecmpBSUMLAyMDEwMzECaAcpiBLNAgAlIA8UB)
-  last-modified (1567112637552)
+  last-modified (1567112795348)
 }
