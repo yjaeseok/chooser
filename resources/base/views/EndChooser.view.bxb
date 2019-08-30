@@ -10,9 +10,7 @@ result-view{
       section {
         content {
           image {
-            object-fit (Contain)
-            aspect-ratio(1:1)
-            url ("images/icon.png")
+            url ("images/icon_title.png")
           }
           compound-card {
             content {
