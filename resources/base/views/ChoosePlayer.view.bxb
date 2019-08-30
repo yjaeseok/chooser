@@ -13,9 +13,25 @@ input-view {
       template-macro(RETRY_PLEASE_SAY_BIXBY)
     }
   }
-  conversation-drivers {
-    conversation-driver {
-      template-macro (SAY_BIXBY)
+
+  render {
+    form {
+      elements {
+        textarea {
+          id (playerAction)
+          type (viv.core.Text)
+          value {
+        template("#{macro('SHOW_GAME_STATUS', action.chooser)}")
+          }
+        }
+      }
+      on-submit {
+        goal: PlayerActionConcept
+        value: PlayerActionConcept("BIXBY")
+      }
+      submit-button {
+        template-macro (SAY_BIXBY)
+      }
     }
   }
 }

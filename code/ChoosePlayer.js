@@ -4,14 +4,12 @@ module.exports.function = function choosePlayer (playerAction, chooser) {
   if (playerAction == "빅스비" || playerAction.toUpperCase() == "BIXBY") {
     chooser.isBixby = true;
     if (chooser.currentPlayer < chooser.numPlayer) {
-      const remainPlayer = chooser.numPlayer - chooser.currentPlayer + 1;
-      const selectedRate = 1 / parseFloat(remainPlayer);
       const random = Math.random();
-      chooser.selected =  random <= selectedRate;
-      //chooser.chooseRatio = sf("{0:#,##0.00}", remainPlayer);
+      chooser.selected =  random * 100 <= chooser.chooseRatio;
       if (!chooser.selected) {
         chooser.currentPlayer += 1;    
       }
+      chooser.chooseRatio = sf("{0:#,##0}", (1 / parseFloat(chooser.numPlayer - chooser.currentPlayer + 1) * 100));
     } else {
       chooser.selected = true;
     }

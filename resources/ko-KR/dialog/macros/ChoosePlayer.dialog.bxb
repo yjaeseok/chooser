@@ -38,3 +38,16 @@ template-macro-def (PLEASE_SAY_BIXBY_PARAMS) {
     }
   }
 }
+
+template-macro-def (SHOW_GAME_STATUS) {
+  params {
+    param (chooser) {
+      type (Chooser)
+      min (Required)
+      max (One)
+    }
+  }
+  content {
+    template ("\n현재 참여자 번호: #{value(chooser.currentPlayer)}\n전체 복불복 참여자 수: #{value(chooser.numPlayer)}\n\n당첨될 확률 #{value(chooser.chooseRatio)}%")
+  }
+}
