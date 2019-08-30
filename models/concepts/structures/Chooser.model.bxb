@@ -18,6 +18,12 @@ structure (Chooser) {
     min (Required) max(One)
     visibility (Private)
   }
+  property (progress) {
+    description (Progress)
+    type (core.Text)
+    min (Required) max(One)
+    visibility (Private)
+  }
   property (selected) {
     description (Toggles true when the quiz is completed)
     type (core.Boolean)

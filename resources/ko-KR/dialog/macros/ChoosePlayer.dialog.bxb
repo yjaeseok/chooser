@@ -41,7 +41,7 @@ template-macro-def (PLEASE_SAY_BIXBY_PARAMS) {
 
 template-macro-def (SHOW_GAME_STATUS_TITLE) {
   content {
-    template ("제이크 복불복 진행 현황판")
+    template ("게임 현황판")
   }
 }
 
@@ -54,6 +54,6 @@ template-macro-def (SHOW_GAME_STATUS) {
     }
   }
   content {
-    template ("\n현재 참여자 번호: #{value(chooser.currentPlayer)}\n전체 복불복 참여자 수: #{value(chooser.numPlayer)}\n\n당첨될 확률 #{value(chooser.chooseRatio)}%")
+    template ("현재 참여자 번호 : #{value(chooser.currentPlayer)}번\n전체 참여자 수: #{value(chooser.numPlayer)}명\n\n현재 참여자가 당첨될 확률 #{value(chooser.chooseRatio)}%\n진행률: #{value(chooser.progress)}")
   }
 }
