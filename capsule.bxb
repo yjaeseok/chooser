@@ -1,6 +1,6 @@
 capsule {
   id (jake.chooser)
-  version (0.3.6)
+  version (0.3.7)
   format (3)
   targets {
     target (bixby-mobile-ko-KR)
