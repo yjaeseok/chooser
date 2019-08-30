@@ -54,7 +54,7 @@ template-macro-def (SHOW_GAME_STATUS) {
     }
   }
   content {
-    template ("전체 참여자: #{value(chooser.numPlayer)}명\n현재 참여자: #{value(chooser.currentPlayer)}번")
+    template ("전체 #{value(chooser.numPlayer)}명 중 #{value(chooser.currentPlayer)}번째 참여자의 순서입니다.\n'빅스비' 라고 외쳐주세요.")
   }
 }
 
@@ -67,7 +67,7 @@ template-macro-def (SHOW_GAME_CHOOSE_RATIO) {
     }
   }
   content {
-    template ("당첨될 확률 #{value(chooser.chooseRatio)}%")
+    template ("당첨될 확률은 #{value(chooser.chooseRatio)}% 입니다.")
   }
 }
 

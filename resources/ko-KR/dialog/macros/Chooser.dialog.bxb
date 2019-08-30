@@ -24,7 +24,7 @@ template-macro-def (SHOW_GAME_END_STATUS) {
     }
   }
   content {
-    template ("전체 참여자: #{value(chooser.numPlayer)}명")
+    template ("전체 #{value(chooser.numPlayer)}명 중")
   }
 }
 
@@ -37,6 +37,6 @@ template-macro-def (SHOW_GAME_END_STATUS2) {
     }
   }
   content {
-    template ("당첨된 참여자: #{value(chooser.currentPlayer)}번")
+    template ("#{value(chooser.currentPlayer)}번째 참여자가 당첨되었습니다.")
   }
 }
