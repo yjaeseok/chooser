@@ -3,3 +3,8 @@ train (t-ra0jr85z9l2eqqynd034owbn5) {
   plan (Y2BmEMlKzE7VS87Izy9OLdJzhtAMkiiiwSWJRSUwKewamBgYgZgBSDIyMMBoAA==)
   last-modified (1566409706460)
 }
+train (t-rg1dqdmoqe54zfzy7uyeaf5qt) {
+  utterance ("[g:StartChooser] 제이크 복불복에서 (사인용)[v:NumPlayerConcept:4] 게임하고 싶어")
+  plan (Y2BlEMlKzE7VS87Izy9OLdJzhtAMkiiiwSWJRSUwKewapFBFi1ITS1JhcrIocn6luQE5iZWpRc75ecmpBSUMLAyMDEwMzECaAcpiBLNAgAlIA8UB)
+  last-modified (1567145516870)
+}

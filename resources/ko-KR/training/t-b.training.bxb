@@ -1,3 +1,8 @@
+train (t-b6fp2li1addd70oqko1kgq7ya) {
+  utterance ("[g:jake.chooser.StartChooser] 제이크 복불복에서 (오인용)[v:NumPlayerConcept:5] 게임 시작")
+  plan (Y2BlEMlKzE7VS87Izy9OLdJzhtAMkiiiwSWJRSUwKewapFBFi1ITS1JhcrIocn6luQE5iZWpRc75ecmpBSUMLAyMDEwMzECaAcpiBLNAgAlIA8UB)
+  last-modified (1567145333163)
+}
 train (t-b8krtu4adwyutha4kuc6nodkf) {
   utterance ([g:StartChooser] 제이크 복불복에서 복불복 하자)
   plan (Y2BmEMlKzE7VS87Izy9OLdJzhtAMkiiiwSWJRSUwKewamBgYgZgBSDIyMMBoAA==)
