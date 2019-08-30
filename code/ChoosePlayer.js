@@ -5,14 +5,7 @@ module.exports.function = function choosePlayer (playerAction, chooser) {
     chooser.isBixby = true;
     if (chooser.currentPlayer < chooser.numPlayer) {
       const random = Math.random();
-      var progress = '';
-      for (var i = 0; i < chooser.currentPlayer; i++) {
-        progress += '■';
-      }
-      for (var i = chooser.currentPlayer; i < chooser.numPlayer; i++) {
-        progress += '□';
-      }
-      chooser.progress = progress;
+      chooser.progress = chooser.currentPlayer / parseFloat(chooser.numPlayer) * 100;
       chooser.selected =  random * 100 <= chooser.chooseRatio;
       if (!chooser.selected) {
         chooser.currentPlayer += 1;    

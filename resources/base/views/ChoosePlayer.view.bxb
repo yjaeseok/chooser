@@ -13,28 +13,52 @@ input-view {
       template-macro(RETRY_PLEASE_SAY_BIXBY)
     }
   }
-
   render {
-    form {
-      elements {
-        textarea {
-          id (playerAction)
-          type (viv.core.Text)
-          label {
-            template-macro (SHOW_GAME_STATUS_TITLE)
-          }
-          value {
-        template("#{macro('SHOW_GAME_STATUS', action.chooser)}")
+    selection-of (action.chooser) {
+      where-each () {
+        compound-card {
+          content {
+            title-area {
+              halign (Center)
+              slot2 {
+                single-line {
+                  text ("#{macro('SHOW_GAME_STATUS_TITLE')}")
+                }
+              }
+            }
+            divider
+            paragraph {
+              style(Detail_L)
+              value {
+                template("#{macro('SHOW_GAME_STATUS', action.chooser)}")
+              }
+            }
+            single-line {
+              text {
+                style (Detail_L_Soft)
+                value {
+                  template ("#{macro('SHOW_GAME_CHOOSE_RATIO', action.chooser)}")
+                }
+              }
+            }
+            single-line {
+              text {
+                color (Amber)
+                style (Detail_M)
+                value {
+                  template ("#{macro('PROGRESS')}")
+                }
+              }
+            }
+            progress-bar(action.chooser.progress)
           }
         }
       }
-      on-submit {
-        goal: PlayerActionConcept
-        value: PlayerActionConcept("BIXBY")
-      }
-      submit-button {
-        template-macro (SAY_BIXBY)
-      }
+    }
+  }
+  conversation-drivers {
+    conversation-driver {
+      template-macro (SAY_BIXBY)
     }
   }
 }

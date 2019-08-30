@@ -8,3 +8,35 @@ template-macro-def (CHOOSE_MESSAGE) {
     }
   }
 }
+
+template-macro-def (SHOW_GAME_END_TITLE) {
+  content {
+    template ("게임 결과")
+  }
+}
+
+template-macro-def (SHOW_GAME_END_STATUS) {
+  params {
+    param (chooser) {
+      type (Chooser)
+      min (Required)
+      max (One)
+    }
+  }
+  content {
+    template ("전체 참여자: #{value(chooser.numPlayer)}명")
+  }
+}
+
+template-macro-def (SHOW_GAME_END_STATUS2) {
+  params {
+    param (chooser) {
+      type (Chooser)
+      min (Required)
+      max (One)
+    }
+  }
+  content {
+    template ("당첨된 참여자: #{value(chooser.currentPlayer)}번")
+  }
+}

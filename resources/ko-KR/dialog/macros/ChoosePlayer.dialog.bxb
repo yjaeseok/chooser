@@ -54,6 +54,25 @@ template-macro-def (SHOW_GAME_STATUS) {
     }
   }
   content {
-    template ("현재 참여자 번호 : #{value(chooser.currentPlayer)}번\n전체 참여자 수: #{value(chooser.numPlayer)}명\n\n현재 참여자가 당첨될 확률 #{value(chooser.chooseRatio)}%\n진행률: #{value(chooser.progress)}")
+    template ("전체 참여자: #{value(chooser.numPlayer)}명\n현재 참여자: #{value(chooser.currentPlayer)}번")
+  }
+}
+
+template-macro-def (SHOW_GAME_CHOOSE_RATIO) {
+  params {
+    param (chooser) {
+      type (Chooser)
+      min (Required)
+      max (One)
+    }
+  }
+  content {
+    template ("당첨될 확률 #{value(chooser.chooseRatio)}%")
+  }
+}
+
+template-macro-def (PROGRESS) {
+  content {
+    template ("게임 진행률")
   }
 }

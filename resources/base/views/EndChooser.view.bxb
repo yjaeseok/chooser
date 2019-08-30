@@ -9,8 +9,44 @@ result-view{
     layout {
       section {
         content {
-          image {
-            url {
+          compound-card {
+            content {
+              title-area {
+                halign (Center)
+                slot2 {
+                  single-line {
+                    text ("#{macro('SHOW_GAME_END_TITLE')}")
+                  }
+                }
+              }
+              divider
+              paragraph {
+                style(Detail_L)
+                value {
+                  template("#{macro('SHOW_GAME_END_STATUS', chooser)}")
+                }
+              }
+              single-line {
+                text {
+                  color (Amber)
+                  style (Detail_L)
+                  value {
+                    template("#{macro('SHOW_GAME_END_STATUS2', chooser)}")
+                  }
+                }
+              }
+            }
+          }
+          image-card {
+            title-area {
+              halign (Center)
+              slot2 {
+                single-line {
+                  text("WAX - Always You")
+                }
+              }
+            }
+            image-url {
               template ("images/chooser.png")
             }
           }
