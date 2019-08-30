@@ -9,6 +9,11 @@ result-view{
     layout {
       section {
         content {
+          image {
+            object-fit (Contain)
+            aspect-ratio(1:1)
+            url ("images/icon.png")
+          }
           compound-card {
             content {
               title-area {
@@ -35,19 +40,6 @@ result-view{
                   }
                 }
               }
-            }
-          }
-          image-card {
-            title-area {
-              halign (Center)
-              slot2 {
-                single-line {
-                  text("WAX - Always You")
-                }
-              }
-            }
-            image-url {
-              template ("images/chooser.png")
             }
           }
         }
