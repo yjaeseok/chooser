@@ -1,21 +1,21 @@
-# <img width="36px" src="./assets/images/icon.png"/> Jake 복불복
+# <img width="36px" src="./assets/images/icon.png"/> 제이크 복불복
 <p align="center">
   <img src="http://img.shields.io/:license-mit-green.svg"/>
   <img src="https://img.shields.io/badge/platform-bixby-blue.svg"/>
   <img src="https://img.shields.io/badge/language-javascript-brightgreen.svg"/>
 </p>
 
-"Jake 복불복 캡슐은 언제 어디서 누구나 간편하게 즐길 수 있는 복불복 게임 캡슐입니다."
+"제이크 복불복 캡슐은 언제 어디서 누구나 간편하게 즐길 수 있는 복불복 게임 캡슐입니다."
 
 ### 대표발화
 
-> 1. "Jake 복불복에서 게임 시작"
-> 2. "Jake 복불복에서 5인용 복불복 게임 시작"
-> 3. "Jake 복불복에서 선택 게임 시작"
+> 1. "제이크 복불복에서 게임 시작"
+> 2. "제이크 복불복에서 3명 복불복 게임 시작"
+> 3. "제이크 복불복에서 선택 게임 시작"
 
 ### 대표 시나리오
 
-> 사용자 1 : "Jake 복불복에서 게임 시작"<br>
+> 사용자 1 : "제이크 복불복에서 게임 시작"<br>
 > 빅스비   : "몇분이 게임을 진행하시나요?"<br>
 > 사용자 1 : "5명"<br>
 > 빅스비   : "자 이제 시작합니다. 빅스비 라고 외쳐주세요."<br>
@@ -32,17 +32,17 @@
 ### 동작 순서
 
 #### STEP 1. 실행
-> 대표발화 "Jake 복불복에서 게임 시작" 을 외치면 빅스비가 "몇분이 게임을 진행하시나요?" 라고 묻게됩니다.<br>
+> 대표발화 "제이크 복불복에서 게임 시작" 을 외치면 빅스비가 "몇분이 게임을 진행하시나요?" 라고 묻게됩니다.<br>
 > 그 이유는 [StartChooser](./models/actions/StartChooser.model.bxb)가 [CreateChooser](./models/actions/CreateChooser.model.bxb) 통해 Chooser를 생성하는데, Chooser의 NumPlayer가 없기 때문입니다.<br>
 > 따라서 NumPlayer를 추가하기 위해 [CreateChooser.view.bxb](./resources/base/views/CreateChooser.view.bxb)를 활용해 질문을 하게 됩니다.<br>
-> 단, "Jake 복불복에서 5인용 복불복 게임 시작" 처럼 외치면 5명이 NumPlayer에 적용되어 바로 게임이 시작됩니다.<br>
+> 단, "제이크 복불복에서 3명 복불복 게임 시작" 처럼 외치면 3명이 NumPlayer에 적용되어 바로 게임이 시작됩니다.<br>
 
 ###### 그림으로 STEP 1.의 동작 Flow를 보면 아래와 같습니다.
 <p align="center"><img src="./assets/flow/step1.png" alt="drawing" width="30%"/></p>
 
 
 #### STEP 2. 최초 사용자 선택 진행
-> STEP 1에서 n명 이라고 발화를 하거나, "Jake 복불복에서 n인용 복불복 게임 시작" 을 발화하면, STEP 2로 진입합니다.<br>
+> STEP 1에서 n명 이라고 발화를 하거나, "제이크 복불복에서 n명 복불복 게임 시작" 을 발화하면, STEP 2로 진입합니다.<br>
 > STEP 2에서는 빅스비가 "자 이제 시작합니다. 빅스비 라고 외쳐주세요." 라고 이야기합니다.<br>
 > 그 이유는 [StartChooser](./models/actions/StartChooser.model.bxb)가 선택된 사용자가 없을 때 [ChoosePlayer](./models/actions/ChoosePlayer.model.bxb)로 이동되며<br>
 > ChoosePlayer는 PlayerAction을 필요로 하기 때문입니다.<br>
