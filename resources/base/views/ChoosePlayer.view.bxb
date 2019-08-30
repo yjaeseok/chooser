@@ -20,6 +20,9 @@ input-view {
         textarea {
           id (playerAction)
           type (viv.core.Text)
+          label {
+            template-macro (SHOW_GAME_STATUS_TITLE)
+          }
           value {
         template("#{macro('SHOW_GAME_STATUS', action.chooser)}")
           }

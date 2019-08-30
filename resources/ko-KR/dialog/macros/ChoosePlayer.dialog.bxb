@@ -39,6 +39,12 @@ template-macro-def (PLEASE_SAY_BIXBY_PARAMS) {
   }
 }
 
+template-macro-def (SHOW_GAME_STATUS_TITLE) {
+  content {
+    template ("제이크 복불복 진행 현황판")
+  }
+}
+
 template-macro-def (SHOW_GAME_STATUS) {
   params {
     param (chooser) {
