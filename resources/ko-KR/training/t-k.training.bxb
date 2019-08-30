@@ -3,3 +3,8 @@ train (t-k3bnhjb8djofj7d8xvh09rtlc) {
   plan (Y2BlEMlKzE7VS87Izy9OLdJzhtAMkiiiwSWJRSUwKewapFBFi1ITS1JhcrIocn6luQE5iZWpRc75ecmpBSUMLAyMDEwMzECaAcpiBLNAgAlIA8UB)
   last-modified (1567145673118)
 }
+train (t-kvxsds4u0a5w8qkqs0m6beq9f) {
+  utterance ("[g:StartChooser] 제이크 복불복에서 (내)[v:NumPlayerConcept:4] 명 게임 시작")
+  plan (Y2BlEMlKzE7VS87Izy9OLdJzhtAMkiiiwSWJRSUwKewapFBFi1ITS1JhcrIocn6luQE5iZWpRc75ecmpBSUMLAyMDEwMzECaAcpiBLNAgAlIA8UB)
+  last-modified (1567153920360)
+}

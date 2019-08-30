@@ -8,3 +8,8 @@ train (t-icz2c16ojuoy2pxlj5u3ign1n) {
   plan (Y2BlEMlKzE7VS87Izy9OLdJzhtAMkiiiwSWJRSUwKewapFBFi1ITS1JhcrIocn6luQE5iZWpRc75ecmpBSUMLAyMDEwMzECaAcpiBLNAgAlIA8UB)
   last-modified (1567112795348)
 }
+train (t-ip9tm161ltyk9j6l8srwde7x3) {
+  utterance ("[g:NumPlayerConcept:prompt] (내)[v:NumPlayerConcept:4] 명")
+  plan (Y2BikM1KzE7VS87Izy9OLdLzK80NyEmsTC1yzs9LTi0oISTNCIQMDDxAzATEQDYA)
+  last-modified (1567153875297)
+}
