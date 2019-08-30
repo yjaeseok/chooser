@@ -1,7 +1,7 @@
 hints {
   uncategorized {
-    hint ("Jake 복불복에서 게임 시작")
-    hint ("Jake 복불복에서 5인용 복불복 게임 시작")
-    hint ("Jake 복불복에서 선택 게임 시작")
+    hint ("제이크 복불복에서 게임 시작")
+    hint ("제이크 복불복에서 3명 복불복 게임 시작")
+    hint ("제이크 복불복에서 선택 게임 시작")
   }
 }

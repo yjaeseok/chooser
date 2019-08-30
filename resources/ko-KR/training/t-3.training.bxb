@@ -1,0 +1,5 @@
+train (t-3lciwlvp8wnbbutkdyl60n51w) {
+  utterance ("[g:StartChooser] 제이크 복불복에서 (오)[v:NumPlayerConcept:5] 인용 게임 시작")
+  plan (Y2BlEMlKzE7VS87Izy9OLdJzhtAMkiiiwSWJRSUwKewapFBFi1ITS1JhcrIocn6luQE5iZWpRc75ecmpBSUMLAyMDEwMzECaAcpiBLNAgAlIA8UB)
+  last-modified (1567127696409)
+}
