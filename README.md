@@ -2,7 +2,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/platform-BIXBY-blue.svg"/>
   <img src="https://img.shields.io/github/v/release/yjaeseok/chooser?color=brightgreen"/>
-  <img src="https://img.shields.io/github/v/release/yjaeseok/chooser?color=red&include_prereleases&label=prerelease"/>
+  <img src="https://img.shields.io/github/v/release/yjaeseok/chooser?color=red&include_prereleases&label=beta"/>
   <img src="https://img.shields.io/badge/language-javascript-green.svg"/>
   <img src="https://img.shields.io/:license-MIT-yellow.svg"/>
 </p>
