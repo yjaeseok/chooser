@@ -1,10 +1,10 @@
 # <img width="36px" src="./assets/images/icon.png"/> 제이크 복불복
 <p align="center">
+  <img src="https://img.shields.io/badge/platform-bixby-blue.svg"/>
   <img src="https://img.shields.io/github/v/release/yjaeseok/chooser?color=brightgreen"/>
   <img src="https://img.shields.io/github/release-date/yjaeseok/chooser?color=green"/>
-  <img src="https://img.shields.io/github/v/release/yjaeseok/chooser?color=lightgray&include_prereleases&label=prerelease"/>
-  <img src="http://img.shields.io/:license-mit-yellowgreen.svg"/>
-  <img src="https://img.shields.io/badge/platform-bixby-blue.svg"/>
+  <img src="https://img.shields.io/github/v/release/yjaeseok/chooser?color=red&include_prereleases&label=prerelease"/>
+  <img src="https://img.shields.io/:license-mit-yellowgreen.svg"/>
   <img src="https://img.shields.io/badge/language-javascript-yellow.svg"/>
 </p>
 
