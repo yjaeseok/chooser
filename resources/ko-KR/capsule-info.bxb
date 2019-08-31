@@ -7,7 +7,7 @@ capsule-info {
   developer-name (Jake Yoon)
   icon-asset (/images/icon.png)
   website-url (https://github.com/yjaeseok/chooser)
-  description ("언제 어디서 누구나 간편하게 즐길 수 있는 복불복 게임입니다.")
+  description ("제이크 복불복은 언제 어디서 누구나 간편하게 즐길 수 있는 복불복 게임입니다.\n다함께 빅스비를 외치다보면 복불복의 당첨자가 결정됩니다.")
   search-keywords {
     keyword (게임)
     keyword (복불복)

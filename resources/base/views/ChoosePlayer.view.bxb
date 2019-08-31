@@ -4,8 +4,10 @@ input-view {
   }
   message {
     if (action.chooser.isBixby) {
-      if (action.chooser.currentPlayer == 1) {  // if not on first question
+      if (action.chooser.currentPlayer == 1) {
         template-macro(PLEASE_SAY_BIXBY)
+      } if (action.chooser.currentPlayer == action.chooser.numPlayer) {
+        template-macro(PLEASE_SAY_BIXBY_LAST)
       } else {
         template("#{macro('PLEASE_SAY_BIXBY_PARAMS', action.chooser)}")
       }
