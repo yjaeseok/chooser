@@ -43,7 +43,7 @@ template-macro-def (PLEASE_SAY_BIXBY_LAST) {
    content {
     choose (Random) {
       template ("패스! 마지막 도전자입니다. 빅스비!!")
-      template ("패스! 당첨될 확률은 100% 입니다! 빅스비 라고 외쳐주세요!")
+      template ("패스! 당첨될 확률은 100% 입니다! 하지만! 빅스비 라고 외쳐주세요!")
       template ("패스! 혹시 모릅니다. 빅스비 라고 외쳐보세요!")
     }
   }
