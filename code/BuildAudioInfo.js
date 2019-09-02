@@ -19,6 +19,7 @@ module.exports.function = function findMeow () {
   input.category = 'SINGLE';
   input.displayName = '결국 너야';
   input.repeatMode = 'OFF';
+  input.doNotWaitForTTS = true;
   
   return input;
 }
