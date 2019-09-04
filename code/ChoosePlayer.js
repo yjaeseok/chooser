@@ -11,7 +11,12 @@ module.exports.function = function choosePlayer (playerAction, chooser) {
         // prepare next game
         chooser.currentPlayer += 1;
         chooser.remainPlayer -= 1;
-        updateProgress(chooser);
+
+        // progress bar size
+        chooser.progress = (chooser.currentPlayer - 1) / parseFloat(chooser.numPlayer) * 100;
+
+        // next player choose ratio
+        chooser.chooseRatio = sf("{0:#,##0}", (1 / parseFloat(chooser.remainPlayer) * 100));
       }
     }
   }
@@ -29,10 +34,4 @@ function isLastPlayer(chooser) {
 function tryToMakeChoice(chooser) {
   const random = Math.random();
   return random * 100 <= chooser.chooseRatio;
-}
-
-function updateProgress(chooser) {
-  chooser.progress = (chooser.currentPlayer - 1) / parseFloat(chooser.numPlayer) * 100;
-  // next player ratio text
-  chooser.chooseRatio = sf("{0:#,##0}", (1 / parseFloat(chooser.remainPlayer) * 100));
 }
