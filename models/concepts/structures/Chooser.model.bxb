@@ -12,6 +12,12 @@ structure (Chooser) {
     min (Required) max (One)
     visibility (Private)
   }
+  property (remainPlayer) {
+    description (remain player)
+    type (NumPlayerConcept)
+    min (Required) max (One)
+    visibility (Private)
+  }
   property (chooseRatio) {
     description (choose Ratio)
     type (core.Text)
@@ -30,8 +36,8 @@ structure (Chooser) {
     min (Required) max (One)
     visibility (Private)
   }
-  property (isBixby) {
-    description (Toggles true when the quiz is completed)
+  property (isValidPlayerAction) {
+    description (user's player action is valid)
     type (core.Boolean)
     min (Required) max (One)
     visibility (Private)

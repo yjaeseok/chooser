@@ -17,8 +17,21 @@ template-macro-def (THREE_PEOPLE) {
   }
 }
 
+template-macro-def (FOUR_PEOPLE) {
+  content {
+    template ("4명")
+  }
+}
+
 template-macro-def (FIVE_PEOPLE) {
   content {
     template ("5명")
+  }
+}
+
+
+template-macro-def (SIX_PEOPLE) {
+  content {
+    template ("6명")
   }
 }
