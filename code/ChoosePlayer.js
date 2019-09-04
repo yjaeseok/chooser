@@ -1,21 +1,19 @@
 const sf = require("./libs/sf.js");
 
 module.exports.function = function choosePlayer (playerAction, chooser) {
-  if (isValidPlayerAction(playerAction)) {
-    chooser.isValidPlayerAction = true;
-
+  chooser.isValidPlayerAction = isValidPlayerAction(playerAction);
+  if (chooser.isValidPlayerAction) {
     if (isLastPlayer(chooser)) {
-      chooser.selected = true;
+      chooser.chosen = true;
     } else {
-      chooser.selected = tryToChoose(chooser);
-      if (!chooser.selected) {
+      chooser.isGameFinished = tryToMakeChoice(chooser);
+      if (!chooser.isGameFinished) {
+        // prepare next game
         chooser.currentPlayer += 1;
         chooser.remainPlayer -= 1;
         updateProgress(chooser);
       }
     }
-  } else {
-    chooser.isValidPlayerAction = false;
   }
   return chooser;
 }
@@ -28,7 +26,7 @@ function isLastPlayer(chooser) {
   return chooser.currentPlayer == chooser.numPlayer;
 }
 
-function tryToChoose(chooser) {
+function tryToMakeChoice(chooser) {
   const random = Math.random();
   return random * 100 <= chooser.chooseRatio;
 }

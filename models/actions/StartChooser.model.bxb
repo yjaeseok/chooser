@@ -12,7 +12,7 @@ action (StartChooser) {
       }
 
       validate {
-        if (chooser.selected) {
+        if (chooser.isGameFinished) {
           replan {
             intent {
               goal: PlayChooserSong

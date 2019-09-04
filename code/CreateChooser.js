@@ -7,7 +7,7 @@ module.exports.function = function createChooser (numPlayer) {
     remainPlayer: numPlayer,
     chooseRatio: sf("{0:#,##0}", (1 / numPlayer * 100)),
     progress: 0,
-    selected: false,
+    isGameFinished: false,
     isValidPlayerAction: true
   };
   return chooser;
