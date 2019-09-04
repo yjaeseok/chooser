@@ -1,21 +1,37 @@
 const sf = require("./libs/sf.js");
 
 module.exports.function = function choosePlayer (playerAction, chooser) {
-  if (playerAction == "빅스비" || playerAction.toUpperCase() == "BIXBY") {
-    chooser.isBixby = true;
-    if (chooser.currentPlayer < chooser.numPlayer) {
-      const random = Math.random();
-      chooser.progress = chooser.currentPlayer / parseFloat(chooser.numPlayer) * 100;
-      chooser.selected =  random * 100 <= chooser.chooseRatio;
-      if (!chooser.selected) {
-        chooser.currentPlayer += 1;    
-      }
-      chooser.chooseRatio = sf("{0:#,##0}", (1 / parseFloat(chooser.numPlayer - chooser.currentPlayer + 1) * 100));
+  chooser.isValidPlayerAction = isValidPlayerAction(playerAction);
+  if (chooser.isValidPlayerAction) {
+    if (isLastPlayer(chooser)) {
+      chooser.chosen = true;
     } else {
-      chooser.selected = true;
+      chooser.isGameFinished = tryToMakeChoice(chooser);
+      if (!chooser.isGameFinished) {
+        // prepare next game
+        chooser.currentPlayer += 1;
+        chooser.remainPlayer -= 1;
+
+        // progress bar size
+        chooser.progress = (chooser.currentPlayer - 1) / parseFloat(chooser.numPlayer) * 100;
+
+        // next player choose ratio
+        chooser.chooseRatio = sf("{0:#,##0}", (1 / parseFloat(chooser.remainPlayer) * 100));
+      }
     }
-  } else {
-    chooser.isBixby = false;
   }
   return chooser;
+}
+
+function isValidPlayerAction(playerAction) {
+  return playerAction == "빅스비" || playerAction.toUpperCase() == "BIXBY";
+}
+
+function isLastPlayer(chooser) {
+  return chooser.currentPlayer == chooser.numPlayer;
+}
+
+function tryToMakeChoice(chooser) {
+  const random = Math.random();
+  return random * 100 <= chooser.chooseRatio;
 }

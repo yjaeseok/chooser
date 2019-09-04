@@ -11,7 +11,13 @@ input-view {
       template-macro (THREE_PEOPLE)
     }
     conversation-driver {
+      template-macro (FOUR_PEOPLE)
+    }
+    conversation-driver {
       template-macro (FIVE_PEOPLE)
+    }
+    conversation-driver {
+      template-macro (SIX_PEOPLE)
     }
   }
 }
