@@ -30,7 +30,7 @@ structure (Chooser) {
     min (Required) max(One)
     visibility (Private)
   }
-  property (selected) {
+  property (isGameFinished) {
     description (Toggles true when the quiz is completed)
     type (core.Boolean)
     min (Required) max (One)
