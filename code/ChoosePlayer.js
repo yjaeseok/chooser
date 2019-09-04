@@ -21,11 +21,7 @@ module.exports.function = function choosePlayer (playerAction, chooser) {
 }
 
 function isValidPlayerAction(playerAction) {
-  if (playerAction == "빅스비" || playerAction.toUpperCase() == "BIXBY") {
-    return true;
-  } else {
-    return false;
-  }
+  return playerAction == "빅스비" || playerAction.toUpperCase() == "BIXBY";
 }
 
 function isLastPlayer(chooser) {
