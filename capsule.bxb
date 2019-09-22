@@ -1,6 +1,6 @@
 capsule {
   id (jake.chooser)
-  version (0.4.2)
+  version (0.4.3)
   format (3)
   targets {
     target (bixby-mobile-ko-KR)
@@ -18,7 +18,7 @@ capsule {
       as (core) 
     }
     import (bixby.audioPlayer) {
-      version (0.3.3)
+      version (0.3.6)
       as (audioPlayer)
     }
   }
