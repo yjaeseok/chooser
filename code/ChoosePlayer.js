@@ -4,7 +4,7 @@ module.exports.function = function choosePlayer (playerAction, chooser) {
   chooser.isValidPlayerAction = isValidPlayerAction(playerAction);
   if (chooser.isValidPlayerAction) {
     if (isLastPlayer(chooser)) {
-      chooser.chosen = true;
+      chooser.isGameFinished = true;
     } else {
       chooser.isGameFinished = tryToMakeChoice(chooser);
       if (!chooser.isGameFinished) {
