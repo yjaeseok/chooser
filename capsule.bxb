@@ -1,6 +1,6 @@
 capsule {
   id (jake.chooser)
-  version (0.4.4)
+  version (0.4.5)
   format (3)
   targets {
     target (bixby-mobile-ko-KR)
@@ -24,5 +24,8 @@ capsule {
   }
   store-sections {
     section (GamesAndFun)
+  }
+  store-countries {
+    all
   }
 }
