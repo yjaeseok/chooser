@@ -12,14 +12,7 @@ action (StartChooser) {
       }
 
       validate {
-        if (chooser.isGameFinished) {
-          replan {
-            intent {
-              goal: PlayChooserSong
-              value { $expr(chooser) }
-            }
-          }
-        } else {
+        if (!chooser.isGameFinished) {
           replan {
             intent {
               goal: ChoosePlayer
