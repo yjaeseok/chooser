@@ -1,25 +1,26 @@
 capsule {
   id (jake.chooser)
-  version (0.4.5)
+  version (0.4.7)
   format (3)
   targets {
     target (bixby-mobile-ko-KR)
+    target (bixby-watch-ko-KR)
   }
-  runtime-flags {
-    use-input-views-for-selection-list-detail
-    support-halt-effect-in-computed-inputs
-    modern-prompt-rejection
-    concepts-inherit-super-type-features
-    no-filtering-with-validation
-    modern-default-view-behavior
+  runtime-version (9) {
+    overrides {
+      no-default-init-when-input-already-instantiated (false)
+      allow-empty-fragments-in-dialog-templates (false)
+      no-fallback-dialog-in-views (false)
+      auto-insert-navigation-conversation-drivers (false)
+      use-most-specific-instantiation-strategy (false)
+      no-auto-property-value-merging (false)
+      use-authorization-header-for-remote-endpoint-oauth (false)
+      result-view-capsule-lock (false)
+    }
   }
   capsule-imports {
-    import (viv.core) { 
-      as (core) 
-    }
-    import (bixby.audioPlayer) {
-      version (0.3.13)
-      as (audioPlayer)
+    import (viv.core) {
+      as (core)
     }
   }
   store-sections {

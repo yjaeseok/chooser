@@ -1,9 +1,6 @@
 capsule-info {
   display-name (제이크 복불복)
   dispatch-name (제이크 복불복)
-  dispatch-aliases {
-    alias (Jake 복불복)
-  }
   developer-name (Jake Yoon)
   icon-asset (/images/icon.png)
   website-url (https://github.com/yjaeseok/chooser)
